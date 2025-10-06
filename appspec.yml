@@ -1,10 +1,25 @@
 version: 0.0
 os: linux
+
 files:
+  - source: /assignment.html
+    destination: /var/www/html/
+  - source: /dashboard.html
+    destination: /var/www/html/
   - source: /index.html
     destination: /var/www/html/
+  - source: /profile.html
+    destination: /var/www/html/
+  - source: /style.css
+    destination: /var/www/html/
+
 hooks:
   BeforeInstall:
     - location: dep.sh
       timeout: 300
       runas: root
+
+  
+
+
+

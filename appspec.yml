@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: /assignment.html
+  - source: /assignments.html
     destination: /var/www/html/
   - source: /dashboard.html
     destination: /var/www/html/
